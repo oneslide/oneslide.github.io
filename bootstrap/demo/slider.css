@@ -1,0 +1,59 @@
+
+
+a, a:visited {
+	color:blue;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#000;
+	text-decoration:none;
+}
+@media(min-width: 381px) {
+.slider-wrapper { 
+	width: 310px; 
+	height: 580px;
+	  background: url("images/S4.png") center center ;
+background-size: contain;
+   background-repeat: no-repeat;	    
+}
+.slider-wrapper2 { 
+	width: 310px; 
+	height: 650px;
+	  background: url("images/Black.png") center center ;
+	     background-size:cover;
+}
+.slider-wrapper3 { 
+	width: 310px; 
+	height: 650px;
+	  background: url("images/iPhone.png") center center ;
+	     background-size:cover;
+}
+}
+@media(max-width: 380px) {
+.slider-wrapper { 
+	height: 550px;
+	  background: url("images/S4.png") center center ;
+  background-size: contain;
+   background-repeat: no-repeat;
+	    
+}
+.slider-wrapper2 { 
+	height: 550px;
+	  background: url("images/Black.png") center center ;
+  background-size: contain;
+   background-repeat: no-repeat;
+}
+.slider-wrapper3 {  
+	height: 650px;
+	  background: url("images/iPhone.png") center center ;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
